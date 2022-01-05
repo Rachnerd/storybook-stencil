@@ -1,0 +1,87 @@
+{
+  "timestamp": "2022-01-05T17:29:42",
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.12.1",
+    "typescriptVersion": "4.3.5"
+  },
+  "components": [
+    {
+      "filePath": "./src/components/my-component/my-component.tsx",
+      "encapsulation": "shadow",
+      "tag": "my-component",
+      "docs": "This is the main description of the component.",
+      "docsTags": [],
+      "usage": {},
+      "props": [
+        {
+          "name": "first",
+          "type": "string",
+          "mutable": false,
+          "attr": "first",
+          "reflectToAttr": false,
+          "docs": "The first name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "last",
+          "type": "string",
+          "mutable": false,
+          "attr": "last",
+          "reflectToAttr": false,
+          "docs": "The last name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        },
+        {
+          "name": "middle",
+          "type": "string",
+          "mutable": false,
+          "attr": "middle",
+          "reflectToAttr": false,
+          "docs": "The middle name",
+          "docsTags": [],
+          "values": [
+            {
+              "type": "string"
+            }
+          ],
+          "optional": false,
+          "required": false
+        }
+      ],
+      "methods": [],
+      "events": [
+        {
+          "event": "testEvent",
+          "detail": "string",
+          "bubbles": true,
+          "cancelable": true,
+          "composed": true,
+          "docs": "Event added to show SB Actions work",
+          "docsTags": []
+        }
+      ],
+      "listeners": [],
+      "styles": [],
+      "slots": [],
+      "parts": [],
+      "dependents": [],
+      "dependencies": [],
+      "dependencyGraph": {}
+    }
+  ]
+}

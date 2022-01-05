@@ -1,0 +1,50 @@
+{
+  "name": "storybook-stencil",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/storybook-stencil/storybook-stencil.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+  },
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "build": "stencil build --docs",
+    "build.watch": "stencil build --watch",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "storybook": "start-storybook -p 6006 -s dist",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@stencil/core": "^2.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@pxtrn/storybook-addon-docs-stencil": "^6.4.0",
+    "@storybook/addon-actions": "^6.4.9",
+    "@storybook/addon-essentials": "^6.4.9",
+    "@storybook/addon-links": "^6.4.9",
+    "@storybook/react": "^6.4.9",
+    "@types/jest": "^26.0.24",
+    "babel-loader": "^8.2.3",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "puppeteer": "^10.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "license": "MIT"
+}
